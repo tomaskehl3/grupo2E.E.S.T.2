@@ -22,5 +22,9 @@ echo "registrado correctamente.";
 
 
 ?>
+    <form action="inicio.html" method="post">
+    <input type="submit" value="ir a inicio sesion">
+</form>
+
 </body>
 </html>
