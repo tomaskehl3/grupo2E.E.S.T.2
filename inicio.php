@@ -7,6 +7,10 @@
     <title>Document</title>
 </head>
 <body>
+
+<!-- ACTION: inicio.php - METHOD: post
+NAME DEL MAIL: mail
+NAME DE LA CONTRASEÑA: contraseña -->
 <?php
 
 
