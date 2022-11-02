@@ -17,14 +17,16 @@ or die("Problemas en el select".mysqli_error($conexion));
 
 mysqli_close($conexion);
 
-echo "registrado correctamente.";
+echo "<script>alert('Registrado correctamente')</script>";
 
 
+header("Location: index.html");
+exit();
 
 ?>
-    <form action="inicio.html" method="post">
+    <!-- <form action="login.html" method="post">
     <input type="submit" value="ir a inicio sesion">
-</form>
+    </form> -->
 
 </body>
 </html>
